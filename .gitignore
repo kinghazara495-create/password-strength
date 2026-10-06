@@ -1,0 +1,27 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets - never commit these
+.env
+.env.*
+*.key
+*.pem
+passwords.txt
+credentials.json
+
+# Local scratch
+_patch*.py
+_scan*.py
+_test_*.py
+report.json
+*.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
